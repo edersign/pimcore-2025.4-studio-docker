@@ -174,7 +174,7 @@ Wait a few seconds after `docker compose up -d`. OpenSearch takes time to initia
 
 ## 📄 License
 
-GPL-3.0 License – same as Pimcore.
+Pimcore 2025.x uses [POCL (Pimcore Open Core License)](https://pimcore.com/en/resources/blog/breaking-free-pimcore-says-goodbye-to-gpl-and-enters-a-new-era-with-pocl) – free for development and companies under €5M revenue.
 
 ---
 
