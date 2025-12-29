@@ -159,10 +159,10 @@ Wait a few seconds after `docker compose up -d`. OpenSearch takes time to initia
 
 ## 📚 Resources
 
-- [Pimcore Studio Documentation](https://pimcore.com/docs/platform/Pimcore/Pimcore_Studio)
-- [Generic Data Index](https://pimcore.com/docs/platform/Generic_Data_Index)
-- [Generic Execution Engine](https://pimcore.com/docs/platform/Generic_Execution_Engine)
-- [Mercure](https://mercure.rocks)
+- [Pimcore Studio Documentation](https://docs.pimcore.com/platform/Studio_Backend/)
+- [Generic Data Index](https://docs.pimcore.com/platform/Generic_Data_Index/Installation/)
+- [Generic Execution Engine](https://docs.pimcore.com/platform/Pimcore/Development_Tools_and_Details/Generic_Execution_Engine/)
+- [Mercure](https://docs.pimcore.com/platform/Studio_Backend/Mercure_Setup)
 
 ---
 
