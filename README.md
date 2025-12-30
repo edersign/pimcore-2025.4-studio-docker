@@ -168,7 +168,7 @@ Wait a few seconds after `docker compose up -d`. OpenSearch takes time to initia
 
 ## 🎬 Video Tutorial
 
-📺 Step-by-step video tutorial: **[Coming Soon]**
+📺 Step-by-step video tutorial: **[(https://youtu.be/fckkom4Iiis)]**
 
 ---
 
@@ -182,5 +182,4 @@ Pimcore 2025.x uses [POCL (Pimcore Open Core License)](https://pimcore.com/en/re
 
 **Aleph Lau**
 
-- YouTube: [[Video](https://youtu.be/fckkom4Iiis)]
 - Blog: [Coming Soon]
