@@ -6,6 +6,12 @@ services:
         image: rabbitmq:alpine
         volumes:
             - pimcore-rabbitmq:/var/lib/rabbitmq/
+        healthcheck:
+            test: [ "CMD", "rabbitmq-diagnostics", "-q", "ping" ]
+            interval: 10s
+            retries: 6
+            start_period: 30s
+            timeout: 5s
     db:
         image: mariadb:10.11
         working_dir: /application
@@ -69,7 +75,7 @@ services:
         image: pimcore/pimcore:php8.3-supervisord-latest
         depends_on:
             rabbitmq:
-                condition: service_started
+                condition: service_healthy
             db:
                 condition: service_healthy
         volumes:
